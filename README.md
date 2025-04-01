@@ -98,9 +98,9 @@ http://localhost:8080/swagger-ui/index.html
 ```
 
 ## Development Notes
-- Hot Reload:
+- *Hot Reload*:
   Spring DevTools is enabled for local development. Ensure your IDE is configured to compile on save (e.g., in IntelliJ IDEA, enable "Build project automatically" and "Allow auto-make to start even if developed application is currently running").
-- Environment Variables:
+- *Environment Variables*:
   The application reads configuration (database credentials, JWT secrets, etc.) from the `.env` file. Ensure the values are correctly set before starting the containers.
-- Docker Volumes:
+- *Docker Volumes*:
   The Docker Compose file mounts a volume for PostgreSQL data so that your database persists between container restarts.
