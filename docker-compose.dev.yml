@@ -1,0 +1,43 @@
+services:
+  app:
+    build: .
+    container_name: task_management_app
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+      - DATASOURCE_URL
+      - JWT_SECRET
+      - JWT_ACCESS_EXPIRATION
+      - JWT_REFRESH_EXPIRATION
+      - POSTGRES_USER
+      - POSTGRES_PASSWORD
+      - REDIS_PORT
+      - REDIS_HOST
+    volumes:
+      - .:/src
+      - ./target/classes:/app/target/classes
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:17
+    container_name: task_management_system_db
+    environment:
+      - POSTGRES_DB=task_management_system_db
+      - POSTGRES_USER
+      - POSTGRES_PASSWORD
+    ports:
+      - "5433:5432"
+    volumes:
+      - data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:latest
+    container_name: task_management_redis
+    ports:
+      - "6380:6379"
+
+volumes:
+  data:

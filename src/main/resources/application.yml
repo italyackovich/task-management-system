@@ -1,0 +1,25 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  application:
+    name: TaskManagementSystem
+  datasource:
+    url: ${DATASOURCE_URL}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+  data:
+    redis:
+      port: ${REDIS_PORT}
+      host: ${REDIS_HOST}
+jwt:
+  secret: ${JWT_SECRET}
+  accessToken:
+    expiration: ${JWT_ACCESS_EXPIRATION}
+  refreshToken:
+    expiration: ${JWT_REFRESH_EXPIRATION}
