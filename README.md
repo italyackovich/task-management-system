@@ -16,7 +16,7 @@ This project is a Spring Boot-based Task Management System that supports user au
 Open your terminal and run:
 
 ```shell
-git clone https://github.com/yourusername/task-management-system.git
+git clone https://github.com/italyackovich/task-management-system.git
 cd task-management-system
 ```
 
