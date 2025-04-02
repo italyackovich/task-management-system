@@ -32,7 +32,7 @@ public class AuthController {
             @ApiResponse(responseCode = "200", description = "User successfully registered"),
             @ApiResponse(responseCode = "400", description = "Invalid registration details")
     })
-    @PostMapping("/registration")
+    @PostMapping("/accounts")
     public ResponseEntity<?> register(
             @Parameter(description = "Registration request payload", required = true)
             @Valid @RequestBody RegisterRequest request) {
@@ -49,7 +49,7 @@ public class AuthController {
             @ApiResponse(responseCode = "200", description = "User successfully authenticated"),
             @ApiResponse(responseCode = "401", description = "Invalid credentials")
     })
-    @PostMapping("/login")
+    @PostMapping("/sessions")
     public ResponseEntity<?> login(
             @Parameter(description = "Login request payload", required = true)
             @Valid @RequestBody LoginRequest request) {
@@ -66,7 +66,7 @@ public class AuthController {
             @ApiResponse(responseCode = "200", description = "Tokens successfully refreshed"),
             @ApiResponse(responseCode = "401", description = "Invalid or expired refresh token")
     })
-    @PostMapping("/refresh")
+    @PostMapping("/tokens")
     public ResponseEntity<?> refresh(
             @Parameter(description = "HTTP request containing the refresh token cookie", required = true)
             HttpServletRequest request) {
