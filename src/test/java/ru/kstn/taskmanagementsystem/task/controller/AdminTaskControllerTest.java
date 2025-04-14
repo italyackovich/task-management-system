@@ -13,10 +13,11 @@ import org.springframework.http.MediaType;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
-import ru.kstn.taskmanagementsystem.auth.service.CookieService;
-import ru.kstn.taskmanagementsystem.auth.service.JwtService;
-import ru.kstn.taskmanagementsystem.task.dto.ResponseTaskDto;
-import ru.kstn.taskmanagementsystem.task.service.TaskService;
+import ru.kstn.taskmanagementsystem.services.auth.CookieService;
+import ru.kstn.taskmanagementsystem.services.auth.JwtService;
+import ru.kstn.taskmanagementsystem.controllers.task.AdminTaskController;
+import ru.kstn.taskmanagementsystem.dtos.task.ResponseTaskDto;
+import ru.kstn.taskmanagementsystem.services.task.TaskService;
 
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
