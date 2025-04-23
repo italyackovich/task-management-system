@@ -2,8 +2,8 @@ package ru.kstn.taskmanagementsystem.dtos.task;
 
 import lombok.Data;
 import ru.kstn.taskmanagementsystem.dtos.comment.SimpleCommentDto;
-import ru.kstn.taskmanagementsystem.enums.task.TaskPriority;
-import ru.kstn.taskmanagementsystem.enums.task.TaskStatus;
+import ru.kstn.taskmanagementsystem.model.enums.TaskPriority;
+import ru.kstn.taskmanagementsystem.model.enums.TaskStatus;
 import ru.kstn.taskmanagementsystem.dtos.user.SimpleUserDto;
 
 import java.util.List;

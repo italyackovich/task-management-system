@@ -3,7 +3,7 @@ package ru.kstn.taskmanagementsystem.mappers.user;
 import org.mapstruct.Mapper;
 import org.mapstruct.NullValuePropertyMappingStrategy;
 import ru.kstn.taskmanagementsystem.dtos.user.SimpleUserDto;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 
 @Mapper(componentModel = "spring", nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
 public interface SimpleUserMapper {

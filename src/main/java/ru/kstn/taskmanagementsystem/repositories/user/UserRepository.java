@@ -1,7 +1,7 @@
 package ru.kstn.taskmanagementsystem.repositories.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 
 import java.util.Optional;
 

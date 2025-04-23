@@ -5,8 +5,8 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import lombok.Data;
-import ru.kstn.taskmanagementsystem.enums.task.TaskPriority;
-import ru.kstn.taskmanagementsystem.enums.task.TaskStatus;
+import ru.kstn.taskmanagementsystem.model.enums.TaskPriority;
+import ru.kstn.taskmanagementsystem.model.enums.TaskStatus;
 
 @Data
 @Schema(description = "Request DTO for task")

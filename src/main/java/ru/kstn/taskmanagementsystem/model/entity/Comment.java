@@ -1,21 +1,14 @@
-package ru.kstn.taskmanagementsystem.entities.comment;
+package ru.kstn.taskmanagementsystem.model.entity;
 
 import jakarta.persistence.*;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import ru.kstn.taskmanagementsystem.entities.task.Task;
-import ru.kstn.taskmanagementsystem.entities.user.User;
 
 @Entity
 @Getter
 @Setter
-@EqualsAndHashCode(exclude = "id")
 @Table(name = "comments")
-public class Comment {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Comment extends BaseEntity {
 
     @Column(nullable = false)
     private String content;

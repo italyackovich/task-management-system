@@ -5,7 +5,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import ru.kstn.taskmanagementsystem.dtos.user.RequestUserDto;
 import ru.kstn.taskmanagementsystem.dtos.user.ResponseUserDto;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 import ru.kstn.taskmanagementsystem.exceptions.user.UserNotFoundException;
 import ru.kstn.taskmanagementsystem.mappers.user.UserMapper;
 import ru.kstn.taskmanagementsystem.repositories.user.UserRepository;

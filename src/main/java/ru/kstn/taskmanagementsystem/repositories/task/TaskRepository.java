@@ -2,7 +2,7 @@ package ru.kstn.taskmanagementsystem.repositories.task;
 
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.kstn.taskmanagementsystem.entities.task.Task;
+import ru.kstn.taskmanagementsystem.model.entity.Task;
 
 import java.util.List;
 

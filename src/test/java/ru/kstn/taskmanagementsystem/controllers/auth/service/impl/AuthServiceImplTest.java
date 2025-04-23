@@ -23,15 +23,15 @@ import org.springframework.test.util.ReflectionTestUtils;
 import ru.kstn.taskmanagementsystem.dtos.auth.JwtCookieResponse;
 import ru.kstn.taskmanagementsystem.dtos.auth.LoginRequest;
 import ru.kstn.taskmanagementsystem.dtos.auth.RegisterRequest;
-import ru.kstn.taskmanagementsystem.entities.auth.Token;
+import ru.kstn.taskmanagementsystem.model.entity.Token;
 import ru.kstn.taskmanagementsystem.mappers.auth.AuthMapper;
 import ru.kstn.taskmanagementsystem.repositories.auth.TokenRepository;
-import ru.kstn.taskmanagementsystem.entities.auth.CustomUserDetails;
+import ru.kstn.taskmanagementsystem.model.CustomUserDetails;
 import ru.kstn.taskmanagementsystem.services.auth.CookieService;
 import ru.kstn.taskmanagementsystem.services.auth.JwtService;
 import ru.kstn.taskmanagementsystem.services.auth.TokenService;
 import ru.kstn.taskmanagementsystem.services.auth.impl.AuthServiceImpl;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 import ru.kstn.taskmanagementsystem.repositories.user.UserRepository;
 
 @ExtendWith(MockitoExtension.class)

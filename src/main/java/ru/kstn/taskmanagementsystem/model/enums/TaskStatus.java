@@ -1,4 +1,4 @@
-package ru.kstn.taskmanagementsystem.enums.task;
+package ru.kstn.taskmanagementsystem.model.enums;
 
 public enum TaskStatus {
     AWAITING,

@@ -5,7 +5,7 @@ import org.mapstruct.NullValuePropertyMappingStrategy;
 import ru.kstn.taskmanagementsystem.mappers.comment.SimpleCommentMapper;
 import ru.kstn.taskmanagementsystem.dtos.task.RequestTaskDto;
 import ru.kstn.taskmanagementsystem.dtos.task.ResponseTaskDto;
-import ru.kstn.taskmanagementsystem.entities.task.Task;
+import ru.kstn.taskmanagementsystem.model.entity.Task;
 import ru.kstn.taskmanagementsystem.mappers.user.SimpleUserMapper;
 
 @Mapper(componentModel = "spring",

@@ -1,7 +1,7 @@
 package ru.kstn.taskmanagementsystem.dtos.user;
 
 import lombok.Data;
-import ru.kstn.taskmanagementsystem.enums.user.UserRole;
+import ru.kstn.taskmanagementsystem.model.enums.UserRole;
 
 @Data
 public class SimpleUserDto {

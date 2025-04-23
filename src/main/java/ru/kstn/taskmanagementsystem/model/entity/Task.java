@@ -1,25 +1,18 @@
-package ru.kstn.taskmanagementsystem.entities.task;
+package ru.kstn.taskmanagementsystem.model.entity;
 
 import jakarta.persistence.*;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import ru.kstn.taskmanagementsystem.entities.comment.Comment;
-import ru.kstn.taskmanagementsystem.enums.task.TaskPriority;
-import ru.kstn.taskmanagementsystem.enums.task.TaskStatus;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.enums.TaskPriority;
+import ru.kstn.taskmanagementsystem.model.enums.TaskStatus;
 
 import java.util.List;
 
 @Entity
 @Getter
 @Setter
-@EqualsAndHashCode(of = {"title", "creator"})
 @Table(name = "tasks")
-public class Task {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Task extends BaseEntity {
 
     @Column(nullable = false)
     private String title;

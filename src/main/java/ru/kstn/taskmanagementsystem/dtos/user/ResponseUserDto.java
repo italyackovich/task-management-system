@@ -3,7 +3,7 @@ package ru.kstn.taskmanagementsystem.dtos.user;
 import lombok.Data;
 import ru.kstn.taskmanagementsystem.dtos.comment.SimpleCommentDto;
 import ru.kstn.taskmanagementsystem.dtos.task.SimpleTaskDto;
-import ru.kstn.taskmanagementsystem.enums.user.UserRole;
+import ru.kstn.taskmanagementsystem.model.enums.UserRole;
 
 import java.util.List;
 

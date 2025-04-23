@@ -1,4 +1,4 @@
-package ru.kstn.taskmanagementsystem.enums.user;
+package ru.kstn.taskmanagementsystem.model.enums;
 
 public enum UserRole {
     ADMIN,

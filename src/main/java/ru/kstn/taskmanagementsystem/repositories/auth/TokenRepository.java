@@ -1,7 +1,7 @@
 package ru.kstn.taskmanagementsystem.repositories.auth;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.kstn.taskmanagementsystem.entities.auth.Token;
+import ru.kstn.taskmanagementsystem.model.entity.Token;
 
 import java.util.List;
 import java.util.Optional;

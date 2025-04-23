@@ -20,8 +20,8 @@ import ru.kstn.taskmanagementsystem.controllers.task.CreatorTaskController;
 import ru.kstn.taskmanagementsystem.dtos.task.RequestTaskDto;
 import ru.kstn.taskmanagementsystem.dtos.task.ResponseTaskDto;
 import ru.kstn.taskmanagementsystem.dtos.task.SimpleTaskDto;
-import ru.kstn.taskmanagementsystem.enums.task.TaskPriority;
-import ru.kstn.taskmanagementsystem.enums.task.TaskStatus;
+import ru.kstn.taskmanagementsystem.model.enums.TaskPriority;
+import ru.kstn.taskmanagementsystem.model.enums.TaskStatus;
 import ru.kstn.taskmanagementsystem.services.task.TaskService;
 
 

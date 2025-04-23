@@ -4,7 +4,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.NullValuePropertyMappingStrategy;
 import ru.kstn.taskmanagementsystem.dtos.comment.RequestCommentDto;
 import ru.kstn.taskmanagementsystem.dtos.comment.ResponseCommentDto;
-import ru.kstn.taskmanagementsystem.entities.comment.Comment;
+import ru.kstn.taskmanagementsystem.model.entity.Comment;
 import ru.kstn.taskmanagementsystem.mappers.task.SimpleTaskMapper;
 import ru.kstn.taskmanagementsystem.mappers.user.SimpleUserMapper;
 

@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
-import ru.kstn.taskmanagementsystem.entities.auth.CustomUserDetails;
+import ru.kstn.taskmanagementsystem.model.CustomUserDetails;
 import ru.kstn.taskmanagementsystem.exceptions.user.UserNotFoundException;
 import ru.kstn.taskmanagementsystem.repositories.user.UserRepository;
 

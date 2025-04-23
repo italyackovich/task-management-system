@@ -1,10 +1,10 @@
-package ru.kstn.taskmanagementsystem.entities.auth;
+package ru.kstn.taskmanagementsystem.model;
 
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 
 import java.util.Collection;
 import java.util.List;

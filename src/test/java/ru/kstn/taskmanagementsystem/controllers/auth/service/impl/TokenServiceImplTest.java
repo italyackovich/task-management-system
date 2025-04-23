@@ -7,10 +7,10 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import ru.kstn.taskmanagementsystem.entities.auth.Token;
+import ru.kstn.taskmanagementsystem.model.entity.Token;
 import ru.kstn.taskmanagementsystem.repositories.auth.TokenRepository;
 import ru.kstn.taskmanagementsystem.services.auth.impl.TokenServiceImpl;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 
 import java.util.Collections;
 import java.util.List;

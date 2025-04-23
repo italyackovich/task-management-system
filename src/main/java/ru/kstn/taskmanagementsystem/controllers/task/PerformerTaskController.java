@@ -14,7 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.kstn.taskmanagementsystem.dtos.task.ResponseTaskDto;
 import ru.kstn.taskmanagementsystem.dtos.task.SimpleTaskDto;
-import ru.kstn.taskmanagementsystem.enums.task.TaskStatus;
+import ru.kstn.taskmanagementsystem.model.enums.TaskStatus;
 import ru.kstn.taskmanagementsystem.services.task.TaskService;
 
 import java.util.List;

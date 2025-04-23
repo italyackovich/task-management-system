@@ -18,12 +18,12 @@ import ru.kstn.taskmanagementsystem.exceptions.auth.RevokedTokenException;
 import ru.kstn.taskmanagementsystem.exceptions.auth.TokenNotFoundException;
 import ru.kstn.taskmanagementsystem.mappers.auth.AuthMapper;
 import ru.kstn.taskmanagementsystem.repositories.auth.TokenRepository;
-import ru.kstn.taskmanagementsystem.entities.auth.CustomUserDetails;
+import ru.kstn.taskmanagementsystem.model.CustomUserDetails;
 import ru.kstn.taskmanagementsystem.services.auth.AuthService;
 import ru.kstn.taskmanagementsystem.services.auth.CookieService;
 import ru.kstn.taskmanagementsystem.services.auth.JwtService;
 import ru.kstn.taskmanagementsystem.services.auth.TokenService;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 import ru.kstn.taskmanagementsystem.exceptions.user.UserNotFoundException;
 import ru.kstn.taskmanagementsystem.repositories.user.UserRepository;
 

@@ -4,10 +4,10 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.kstn.taskmanagementsystem.entities.auth.Token;
+import ru.kstn.taskmanagementsystem.model.entity.Token;
 import ru.kstn.taskmanagementsystem.repositories.auth.TokenRepository;
 import ru.kstn.taskmanagementsystem.services.auth.TokenService;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 
 import java.util.List;
 

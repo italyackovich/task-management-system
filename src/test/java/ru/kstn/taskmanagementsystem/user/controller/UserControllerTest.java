@@ -18,7 +18,7 @@ import ru.kstn.taskmanagementsystem.services.auth.JwtService;
 import ru.kstn.taskmanagementsystem.controllers.user.UserController;
 import ru.kstn.taskmanagementsystem.dtos.user.RequestUserDto;
 import ru.kstn.taskmanagementsystem.dtos.user.ResponseUserDto;
-import ru.kstn.taskmanagementsystem.enums.user.UserRole;
+import ru.kstn.taskmanagementsystem.model.enums.UserRole;
 import ru.kstn.taskmanagementsystem.services.user.UserService;
 
 import java.util.List;

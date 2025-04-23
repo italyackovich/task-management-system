@@ -11,14 +11,14 @@ import org.springframework.data.domain.Sort;
 import ru.kstn.taskmanagementsystem.dtos.task.RequestTaskDto;
 import ru.kstn.taskmanagementsystem.dtos.task.ResponseTaskDto;
 import ru.kstn.taskmanagementsystem.dtos.task.SimpleTaskDto;
-import ru.kstn.taskmanagementsystem.entities.task.Task;
-import ru.kstn.taskmanagementsystem.enums.task.TaskPriority;
-import ru.kstn.taskmanagementsystem.enums.task.TaskStatus;
+import ru.kstn.taskmanagementsystem.model.entity.Task;
+import ru.kstn.taskmanagementsystem.model.enums.TaskPriority;
+import ru.kstn.taskmanagementsystem.model.enums.TaskStatus;
 import ru.kstn.taskmanagementsystem.exceptions.task.TaskNotFoundException;
 import ru.kstn.taskmanagementsystem.mappers.task.SimpleTaskMapper;
 import ru.kstn.taskmanagementsystem.mappers.task.TaskMapper;
 import ru.kstn.taskmanagementsystem.repositories.task.TaskRepository;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 import ru.kstn.taskmanagementsystem.repositories.user.UserRepository;
 
 import java.util.ArrayList;

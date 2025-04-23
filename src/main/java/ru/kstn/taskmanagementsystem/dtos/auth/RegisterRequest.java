@@ -5,7 +5,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
-import ru.kstn.taskmanagementsystem.enums.user.UserRole;
+import ru.kstn.taskmanagementsystem.model.enums.UserRole;
 
 @Data
 @Schema(description = "Request DTO for user registration")

@@ -10,7 +10,7 @@ import ru.kstn.taskmanagementsystem.services.auth.CookieService;
 import ru.kstn.taskmanagementsystem.services.auth.JwtService;
 import ru.kstn.taskmanagementsystem.services.auth.LogoutService;
 import ru.kstn.taskmanagementsystem.services.auth.TokenService;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import ru.kstn.taskmanagementsystem.model.entity.User;
 import ru.kstn.taskmanagementsystem.exceptions.user.UserNotFoundException;
 import ru.kstn.taskmanagementsystem.repositories.user.UserRepository;
 

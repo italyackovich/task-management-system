@@ -24,7 +24,7 @@ import ru.kstn.taskmanagementsystem.services.auth.AuthService;
 import ru.kstn.taskmanagementsystem.services.auth.CookieService;
 import ru.kstn.taskmanagementsystem.services.auth.JwtService;
 import ru.kstn.taskmanagementsystem.controllers.auth.AuthController;
-import ru.kstn.taskmanagementsystem.enums.user.UserRole;
+import ru.kstn.taskmanagementsystem.model.enums.UserRole;
 
 import java.util.List;
 

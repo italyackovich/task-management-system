@@ -1,7 +1,7 @@
 package ru.kstn.taskmanagementsystem.repositories.comment;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.kstn.taskmanagementsystem.entities.comment.Comment;
+import ru.kstn.taskmanagementsystem.model.entity.Comment;
 
 import java.util.List;
 

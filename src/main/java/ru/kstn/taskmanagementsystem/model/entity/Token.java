@@ -1,22 +1,16 @@
-package ru.kstn.taskmanagementsystem.entities.auth;
+package ru.kstn.taskmanagementsystem.model.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import ru.kstn.taskmanagementsystem.entities.user.User;
+import lombok.*;
 
 @Entity
-@Data
+@Getter
+@Setter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "tokens")
-public class Token {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Token extends BaseEntity {
 
     @Column(unique = true, nullable = false)
     private String token;
